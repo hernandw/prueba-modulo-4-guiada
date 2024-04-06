@@ -58,7 +58,7 @@ const card = () => {
   });
 };
 
-//Funcion para ejecutar el método de sonido
+//Funcion para ejecutar el método de sonido. se llama con el objeto window para que esté global en toda la pagina
 
 window.playSound = (name) => {
   const animal = animalCard.find((animal) => animal._name === name);
